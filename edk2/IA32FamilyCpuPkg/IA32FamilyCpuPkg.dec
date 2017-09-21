@@ -1,0 +1,78 @@
+#
+# This file contains an 'Intel Peripheral Driver' and is
+# licensed for Intel CPUs and chipsets under the terms of your
+# license agreement with Intel or your vendor.  This file may
+# be modified by the user, subject to additional terms of the
+# license agreement
+#
+## @file
+# Package for support of IA32 family processors
+#
+# This package supports IA32 family processors, with CPU DXE module, CPU PEIM, CPU S3 module,
+# SMM modules, related libraries, and corresponding definitions.
+#
+# Copyright (c) 2006 - 2014, Intel Corporation. All rights reserved.<BR>
+#
+#    This software and associated documentation (if any) is furnished
+#    under a license and may only be used or copied in accordance
+#    with the terms of the license. Except as permitted by such
+#    license, no part of this software or documentation may be
+#    reproduced, stored in a retrieval system, or transmitted in any
+#    form or by any means without the express written consent of
+#    Intel Corporation.
+#
+##
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = IA32FamilyCpuPkg
+  PACKAGE_GUID                   = 7dbe088f-2e1a-475c-b006-55632c2a5489
+  PACKAGE_VERSION                = 0.5
+
+[Includes]
+  Include
+
+[LibraryClasses]
+  CpuConfigLib|Include/Library/CpuConfigLib.h
+  CpuOnlyResetLib|Include/Library/CpuOnlyResetLib.h
+  PlatformSecLib|Include/Library/PlatformSecLib.h
+  Socket775LgaLib|Include/Library/SocketLga775Lib.h
+  SocketLga1156Lib|Include/Library/SocketLga1156Lib.h
+  SmmCpuPlatformHookLib|Include/Library/SmmCpuPlatformHookLib.h
+
+[Guids]
+  gEfiHtBistHobGuid              = { 0xBE644001, 0xE7D4, 0x48B1, { 0xB0, 0x96, 0x8B, 0xA0, 0x47, 0xBC, 0x7A, 0xE7 }}
+  gEfiCpuTokenSpaceGuid          = { 0x2ADA836D, 0x0A3D, 0x43D6, { 0xA2, 0x5A, 0x38, 0x45, 0xCA, 0xD2, 0xD4, 0x00 }}
+
+[Ppis]
+  gPeiCachePpiGuid               = { 0xC153205A, 0xE898, 0x4C24, { 0x86, 0x89, 0xA4, 0xB4, 0xBC, 0xC5, 0xC8, 0xA2 }}
+
+[Protocols]
+  gSmmCpuSyncProtocolGuid        = { 0xd5950985, 0x8be3, 0x4b1c, { 0xb6, 0x3f, 0x95, 0xd1, 0x5a, 0xb3, 0xb6, 0x5f }}
+  gSmmCpuSync2ProtocolGuid       = { 0x9db72e22, 0x9262, 0x4a18, { 0x8f, 0xe0, 0x85, 0xe0, 0x3d, 0xfa, 0x96, 0x73 }}
+  gEfiSmmCpuServiceProtocolGuid  = { 0x1d202cab, 0xc8ab, 0x4d5c, { 0x94, 0xf7, 0x3c, 0xfc, 0xc0, 0xd3, 0xd3, 0x35 }}
+  gIntelCpuPcdsSetDoneProtocolGuid = { 0xadb7b9e6, 0x70b7, 0x48d4, { 0xb6, 0xa5, 0x18, 0xfa, 0x15, 0xeb, 0xcd, 0x78 }}
+
+[PcdsFeatureFlag]
+  gEfiCpuTokenSpaceGuid.PcdCpuSmmEnableBspElection|TRUE|BOOLEAN|0x32132106
+  gEfiCpuTokenSpaceGuid.PcdCpuSmmBlockStartupThisAp|FALSE|BOOLEAN|0x32132108
+[PcdsFixedAtBuild]
+  gEfiCpuTokenSpaceGuid.PcdCpuSmmApSyncTimeout|1000000|UINT64|0x32132104
+  gEfiCpuTokenSpaceGuid.PcdTemporaryRamBase|0xfef00000|UINT32|0x10001001
+  gEfiCpuTokenSpaceGuid.PcdTemporaryRamSize|0x2000|UINT32|0x10001002
+[PcdsFixedAtBuild, PcdsPatchableInModule]
+  ## Stack size in the temporary RAM.
+  #   0 means half of TemporaryRamSize.
+  gEfiCpuTokenSpaceGuid.PcdPeiTemporaryRamStackSize|0|UINT32|0x10001003
+
+[PcdsFixedAtBuild, PcdsPatchableInModule, PcdsDynamic, PcdsDynamicEx]
+  gEfiCpuTokenSpaceGuid.PcdCpuIEDEnabled|FALSE|BOOLEAN|0x6000000B
+  gEfiCpuTokenSpaceGuid.PcdCpuIEDRamSize|0x20000|UINT32|0x6000000C
+  ## Energy efficiency policy when Energy Performance Bias feature is enabled.
+  # value range [0~15].
+[PcdsDynamic, PcdsDynamicEx]
+  gEfiCpuTokenSpaceGuid.PcdCpuS3DataAddress|0x0|UINT64|0x60000010
+  gEfiCpuTokenSpaceGuid.PcdCpuHotPlugDataAddress|0x0|UINT64|0x60000011
+  gEfiCpuTokenSpaceGuid.PcdCpuCallbackSignal|0x0|UINT8|0x50000002
+  gEfiCpuTokenSpaceGuid.PcdCpuConfigContextBuffer|0x0|UINT64|0x50000001
+  

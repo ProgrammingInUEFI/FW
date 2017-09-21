@@ -1,0 +1,284 @@
+﻿Build started 24.08.2017 20:38:34.
+     1>Project "C:\FW\VS\NT32\NT32\NT32.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         set NASM_PREFIX=C:\FW\NASM\
+         call c:\FW\edk2\edksetup.bat --nt32
+         build
+         
+         Setting environment for using Microsoft Visual Studio 2010 x86 tools.
+                   PATH      = c:\FW\edk2\BaseTools\Bin\Win32;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VSTSDB\Deploy;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\Microsoft.NET\Framework\v3.5;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Python27\Lib\site-packages\PyQt4;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\BROADCOM\BROADCOM 802.11 NETWORK ADAPTER\DRIVER;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\3.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\3.0\BIN\X64;C:\PROGRAM FILES (X86)\COMMON FILES\ACRONIS\SNAPAPI\;C:\PROGRAM FILES\LENOVO\BLUETOOTH SOFTWARE\;C:\PROGRAM FILES\LENOVO\BLUETOOTH SOFTWARE\SYSWOW64;C:\PROGRAM FILES\MICROSOFT SQL SERVER\110\TOOLS\BINN\;C:\PROGRAM FILES (X86)\BITVISE SSH CLIENT;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32;C:\PROGRAM FILES\TORTOISEGIT\BIN;C:\PROGRAM FILES\GIT\BIN;C:\Program Files\OpenVPN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\QtSDK\Symbian\SDKs\Symbian3Qt474\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;c:\cygwin64\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Python26;C:\Python27;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;
+         
+              WORKSPACE      = c:\FW\edk2
+         EDK_TOOLS_PATH      = c:\FW\edk2\BaseTools
+         BASE_TOOLS_PATH     = c:\FW\edk2\BaseTools
+          EDK_TOOLS_BIN      = c:\FW\edk2\BaseTools\Bin\Win32
+              CONF_PATH      = c:\FW\edk2\Conf
+         
+         Build environment: Windows-7-6.1.7601-SP1
+         Build start time: 20:38:35, Aug.24 2017
+         
+         WORKSPACE        = c:\fw\edk2
+         ECP_SOURCE       = c:\fw\edk2\edkcompatibilitypkg
+         EDK_SOURCE       = c:\fw\edk2\edkcompatibilitypkg
+         EFI_SOURCE       = c:\fw\edk2\edkcompatibilitypkg
+         EDK_TOOLS_PATH   = c:\fw\edk2\basetools
+         EDK_TOOLS_BIN    = c:\fw\edk2\basetools\bin\win32
+         CONF_PATH        = c:\fw\edk2\conf
+         
+         
+         Architecture(s)  = IA32
+         Build target     = DEBUG
+         Toolchain        = VS2010x86
+         
+         Active Platform          = c:\fw\edk2\Nt32Pkg\Nt32Pkg.dsc
+         Flash Image Definition   = c:\fw\edk2\Nt32Pkg\Nt32Pkg.fdf
+         
+         Processing meta-data ........... done!
+         Building ... c:\fw\edk2\MdePkg\Library\PeiMemoryAllocationLib\PeiMemoryAllocationLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeiServicesLib\PeiServicesLib.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\PeiNt32OemHookStatusCodeLib\PeiNt32OemHookStatusCodeLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\PeiReportStatusCodeLib\PeiReportStatusCodeLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseLib\BaseLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseMemoryLibOptDxe\BaseMemoryLibOptDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BasePrintLib\BasePrintLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BasePcdLibNull\BasePcdLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseDebugLibNull\BaseDebugLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeiServicesTablePointerLib\PeiServicesTablePointerLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiBootServicesTableLib\UefiBootServicesTableLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiRuntimeServicesTableLib\UefiRuntimeServicesTableLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiDevicePathLibDevicePathProtocol\UefiDevicePathLibDevicePathProtocol.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiLib\UefiLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxeHobLib\DxeHobLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BasePeCoffExtraActionLibNull\BasePeCoffExtraActionLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BasePeCoffLib\BasePeCoffLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\OemHookStatusCodeLibNull\OemHookStatusCodeLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\PeiDxeDebugLibReportStatusCode\PeiDxeDebugLibReportStatusCode.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeiHobLib\PeiHobLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseMemoryLibOptPei\BaseMemoryLibOptPei.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\PeiNt32PeCoffExtraActionLib\PeiNt32PeCoffExtraActionLib.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\Nt32PeiPeCoffGetEntryPointLib\Nt32PeiPeCoffGetEntryPointLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BasePerformanceLibNull\BasePerformanceLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeiCoreEntryPoint\PeiCoreEntryPoint.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseCacheMaintenanceLib\BaseCacheMaintenanceLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeimEntryPoint\PeimEntryPoint.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeiPcdLib\PeiPcdLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseSerialPortLibNull\BaseSerialPortLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\PeiExtractGuidedSectionLib\PeiExtractGuidedSectionLib.inf [IA32]
+         Building ... c:\fw\edk2\IntelFrameworkModulePkg\Library\BaseUefiTianoCustomDecompressLib\BaseUefiTianoCustomDecompressLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DebugAgentLibNull\DebugAgentLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeReportStatusCodeLib\DxeReportStatusCodeLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeCoreMemoryAllocationLib\DxeCoreMemoryAllocationLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxeCoreEntryPoint\DxeCoreEntryPoint.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxeCoreHobLib\DxeCoreHobLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeDebugPrintErrorLevelLib\DxeDebugPrintErrorLevelLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxeExtractGuidedSectionLib\DxeExtractGuidedSectionLib.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\DxeNt32PeCoffExtraActionLib\DxeNt32PeCoffExtraActionLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BasePeCoffGetEntryPointLib\BasePeCoffGetEntryPointLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseTimerLibNullTemplate\BaseTimerLibNullTemplate.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxeServicesLib\DxeServicesLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\CpuExceptionHandlerLibNull\CpuExceptionHandlerLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeCrc32GuidedSectionExtractLib\DxeCrc32GuidedSectionExtractLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiMemoryAllocationLib\UefiMemoryAllocationLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiDriverEntryPoint\UefiDriverEntryPoint.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxePcdLib\DxePcdLib.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\DxeWinNtLib\DxeWinNtLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiRuntimeLib\UefiRuntimeLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\DxeServicesTableLib\DxeServicesTableLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeSecurityManagementLib\DxeSecurityManagementLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\UefiHiiServicesLib\UefiHiiServicesLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\UefiHiiLib\UefiHiiLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseSynchronizationLib\BaseSynchronizationLib.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\DxeNt32OemHookStatusCodeLib\DxeNt32OemHookStatusCodeLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\VarCheckLib\VarCheckLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\TpmMeasurementLibNull\TpmMeasurementLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\AuthVariableLibNull\AuthVariableLibNull.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\VarCheckUefiLib\VarCheckUefiLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeCapsuleLibNull\DxeCapsuleLibNull.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Sec\SecMain.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Core\Pei\PeiMain.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\PCD\Pei\Pcd.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\ReportStatusCodeRouter\Pei\ReportStatusCodeRouterPei.inf [IA32]
+         	"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Vc\bin\link.exe" /out:"c:\fw\edk2\Build\NT32IA32\DEBUG_VS2010x86\IA32\SecMain.exe" /base:0x10000000 /pdb:"c:\fw\edk2\Build\NT32IA32\DEBUG_VS2010x86\IA32\SecMain.pdb" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\\Lib" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\\PlatformSdk\Lib" /LIBPATH:"%UniversalCRTSdkDir%lib\%UCRTVersion%\ucrt\x86" /LIBPATH:"%WindowsSdkDir%lib\%WindowsSDKLibVersion%\um\x86" /NOLOGO /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /MAP /OPT:REF /DEBUG /MACHINE:I386 /LTCG Kernel32.lib MSVCRTD.lib Gdi32.lib User32.lib Winmm.lib Advapi32.lib /EXPORT:InitializeDriver=_ModuleEntryPoint /BASE:0x10000 /ALIGN:4096 /FILEALIGN:4096 /SUBSYSTEM:CONSOLE  @c:\fw\edk2\Build\NT32IA32\DEBUG_VS2010x86\IA32\Nt32Pkg\Sec\SecMain\OUTPUT\static_library_files.lst
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\StatusCodeHandler\Pei\StatusCodeHandlerPei.inf [IA32]
+     1>LINK : warning LNK4108: /ALIGN specified without /DRIVER; image may not run
+     1>LINK : warning LNK4001: no object files specified; libraries used
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtOemHookStatusCodeHandlerPei\WinNtOemHookStatusCodeHandlerPei.inf [IA32]
+            Creating library c:\fw\edk2\Build\NT32IA32\DEBUG_VS2010x86\IA32\SecMain.lib and object c:\fw\edk2\Build\NT32IA32\DEBUG_VS2010x86\IA32\SecMain.exp
+         Generating code
+         Building ... c:\fw\edk2\Nt32Pkg\BootModePei\BootModePei.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\StallPei\StallPei.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtFlashMapPei\WinNtFlashMapPei.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\FaultTolerantWritePei\FaultTolerantWritePei.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Variable\Pei\VariablePei.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtAutoScanPei\WinNtAutoScanPei.inf [IA32]
+         Finished generating code
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtFirmwareVolumePei\WinNtFirmwareVolumePei.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtThunkPPIToProtocolPei\WinNtThunkPPIToProtocolPei.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Core\DxeIplPeim\DxeIpl.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Core\Dxe\DxeMain.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\PCD\Dxe\Pcd.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\MetronomeDxe\MetronomeDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\RealTimeClockRuntimeDxe\RealTimeClockRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\ResetRuntimeDxe\ResetRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\FvbServicesRuntimeDxe\FvbServicesRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\SmbiosDxe\SmbiosDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\EbcDxe\EbcDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\MemoryTest\NullMemoryTestDxe\NullMemoryTestDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtThunkDxe\WinNtThunkDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\CpuRuntimeDxe\CpuRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\FaultTolerantWriteDxe\FaultTolerantWriteDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\MiscSubClassPlatformDxe\MiscSubClassPlatformDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\TimerDxe\TimerDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\ReportStatusCodeRouter\RuntimeDxe\ReportStatusCodeRouterRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\StatusCodeHandler\RuntimeDxe\StatusCodeHandlerRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtOemHookStatusCodeHandlerDxe\WinNtOemHookStatusCodeHandlerDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\MonotonicCounterRuntimeDxe\MonotonicCounterRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Console\ConPlatformDxe\ConPlatformDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Console\ConSplitterDxe\ConSplitterDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Console\GraphicsConsoleDxe\GraphicsConsoleDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Console\TerminalDxe\TerminalDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\DevicePathDxe\DevicePathDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe.inf [IA32]
+         Building ... c:\fw\edk2\FatPkg\EnhancedFatDxe\Fat.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiScsiLib\UefiScsiLib.inf [IA32]
+         Building ... c:\fw\edk2\IntelFrameworkModulePkg\Bus\Pci\IdeBusDxe\IdeBusDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtBusDriverDxe\WinNtBusDriverDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtBlockIoDxe\WinNtBlockIoDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtSerialIoDxe\WinNtSerialIoDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtGopDxe\WinNtGopDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\WinNtSimpleFileSystemDxe\WinNtSimpleFileSystemDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxePrintLibPrint2Protocol\DxePrintLibPrint2Protocol.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiApplicationEntryPoint\UefiApplicationEntryPoint.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\DpcDxe\DpcDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeNetLib\DxeNetLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeDpcLib\DxeDpcLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeUdpIoLib\DxeUdpIoLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeIpIoLib\DxeIpIoLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\BaseSortLib\BaseSortLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DxeHttpLib\DxeHttpLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\UefiBootManagerLib\UefiBootManagerLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\BootLogoLib\BootLogoLib.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\Library\PlatformBootManagerLib\PlatformBootManagerLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\UefiSortLib\UefiSortLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\DeviceManagerUiLib\DeviceManagerUiLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Library\CustomizedDisplayLib\CustomizedDisplayLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\SetupBrowserDxe\SetupBrowserDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\PrintDxe\PrintDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\PlatformDriOverrideDxe\PlatformDriOverrideDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\LoadFileOnFv2\LoadFileOnFv2.inf [IA32]
+         Building ... c:\fw\edk2\IntelFrameworkModulePkg\Library\LegacyBootManagerLib\LegacyBootManagerLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Logo\LogoDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\DebugPortDxe\DebugPortDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\UefiFileHandleLib\UefiFileHandleLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellLib\UefiShellLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiHandleParsingLib\UefiHandleParsingLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellCommandLib\UefiShellCommandLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellBcfgCommandLib\UefiShellBcfgCommandLib.inf [IA32]
+         Building ... c:\fw\edk2\MdePkg\Library\BaseIoLibIntrinsic\BaseIoLibIntrinsic.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellLevel2CommandsLib\UefiShellLevel2CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellLevel1CommandsLib\UefiShellLevel1CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellLevel3CommandsLib\UefiShellLevel3CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellDriver1CommandsLib\UefiShellDriver1CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellInstall1CommandsLib\UefiShellInstall1CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellDebug1CommandsLib\UefiShellDebug1CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Bus\Scsi\ScsiBusDxe\ScsiBusDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Bus\Scsi\ScsiDiskDxe\ScsiDiskDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Application\HelloWorld\HelloWorld.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\ArpDxe\ArpDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\Dhcp4Dxe\Dhcp4Dxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\Ip4Dxe\Ip4Dxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\MnpDxe\MnpDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\VlanConfigDxe\VlanConfigDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\Mtftp4Dxe\Mtftp4Dxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\Tcp4Dxe\Tcp4Dxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\Udp4Dxe\Udp4Dxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\UefiPxeBcDxe\UefiPxeBcDxe.inf [IA32]
+         Building ... c:\fw\edk2\Nt32Pkg\SnpNt32Dxe\SnpNt32Dxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\Network\IScsiDxe\IScsiDxe.inf [IA32]
+         Building ... c:\fw\edk2\NetworkPkg\HttpBootDxe\HttpBootDxe.inf [IA32]
+         Building ... c:\fw\edk2\NetworkPkg\DnsDxe\DnsDxe.inf [IA32]
+         Building ... c:\fw\edk2\NetworkPkg\HttpDxe\HttpDxe.inf [IA32]
+         Building ... c:\fw\edk2\NetworkPkg\HttpUtilitiesDxe\HttpUtilitiesDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\BdsDxe\BdsDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Application\UiApp\UiApp.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\DriverHealthManagerDxe\DriverHealthManagerDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Application\VariableInfo\VariableInfo.inf [IA32]
+         Building ... c:\fw\edk2\MdeModulePkg\Application\BootManagerMenuApp\BootManagerMenuApp.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Library\UefiShellNetwork1CommandsLib\UefiShellNetwork1CommandsLib.inf [IA32]
+         Building ... c:\fw\edk2\MyFirstDriver\MyFirstDriver.inf [IA32]
+         Building ... c:\fw\edk2\EducationPkg\WorkWithProtocols\WorkWithProtocols.inf [IA32]
+         Building ... c:\fw\edk2\EducationPkg\Matreshka\Matreshka.inf [IA32]
+         Building ... c:\fw\edk2\EducationPkg\AdvancedHII\AdvancedHII.inf [IA32]
+         Building ... c:\fw\edk2\EducationPkg\Diagnostic\Diagnostic.inf [IA32]
+         Building ... c:\fw\edk2\ShellPkg\Application\Shell\Shell.inf [IA32]
+         Fd File Name:NT32
+         
+         Generate Region at Offset 0x0
+            Region Size = 0x360000
+            Region Name = FV
+         
+         Generating FVRECOVERY FV
+         ###########################
+         Generate Region at Offset 0x360000
+            Region Size = 0xC000
+            Region Name = DATA
+         
+         Generate Region at Offset 0x36C000
+            Region Size = 0x2000
+            Region Name = None
+         
+         Generate Region at Offset 0x36E000
+            Region Size = 0x2000
+            Region Name = DATA
+         
+         Generate Region at Offset 0x370000
+            Region Size = 0x10000
+            Region Name = None
+         
+         Generate Region at Offset 0x0
+            Region Size = 0x360000
+            Region Name = FV
+         
+         Generate Region at Offset 0x360000
+            Region Size = 0xC000
+            Region Name = DATA
+         
+         Generate Region at Offset 0x36C000
+            Region Size = 0x2000
+            Region Name = None
+         
+         Generate Region at Offset 0x36E000
+            Region Size = 0x2000
+            Region Name = DATA
+         
+         Generate Region at Offset 0x370000
+            Region Size = 0x10000
+            Region Name = None
+         
+         GUID cross reference file can be found at c:\fw\edk2\Build\NT32IA32\DEBUG_VS2010x86\FV\Guid.xref
+         
+         FV Space Information
+         FVRECOVERY [56%Full] 3538944 total, 1998424 used, 1540520 free
+         
+         - Done -
+         Build end time: 20:38:55, Aug.24 2017
+         Build total time: 00:00:21
+         
+     1>Done Building Project "C:\FW\VS\NT32\NT32\NT32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.35

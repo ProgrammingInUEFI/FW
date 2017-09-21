@@ -1,0 +1,73 @@
+## @file
+#  Sample UEFI Application Reference EDKII Module.
+#
+#  This is a sample shell application that will print "UEFI Hello World!" to the
+#  UEFI Console based on PCD setting.
+#
+#  It demos how to use EDKII PCD mechanism to make code more flexible.
+#
+#  Copyright (c) 2008 - 2016, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution. The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.php
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = OsLoadersApp
+#  MODULE_UNI_FILE                = MyApp.uni
+  FILE_GUID                      = 1a6d1456-14e4-43c1-ab73-8a222dd6f24f
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+  UEFI_SPECIFICATION_VERSION 	 = 0x0002001E
+
+[Sources]
+  OsLoadersApp.c
+  #DumpHex1.c
+  #DumpHex1.h
+
+ [Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  IntelFrameworkModulePkg/IntelFrameworkModulePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses] 
+  UefiApplicationEntryPoint
+  UefiBootServicesTableLib
+  #HandleParsingLib
+  GenericBdsLib
+  #UefiLib
+  PcdLib
+  DevicePathLib
+  #UefiHandleParsingLib
+  #UefiShellDebug1CommandsLib
+  #ShellCommandLib
+  #ShellLib
+    
+  BaseLib
+  DebugLib
+  MemoryAllocationLib
+  UefiRuntimeServicesTableLib
+  BaseMemoryLib
+  #FileHandleLib
+  PrintLib
+  #HiiLib
+  #SortLib
+  #UefiHiiServicesLib
+
+
+#[FeaturePcd]
+ # gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintEnable   ## CONSUMES
+
+#[Pcd]
+ # gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintString || gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintEnable    ## SOMETIMES_CONSUMES
+ # gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintTimes  || gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintEnable    ## SOMETIMES_CONSUMES
+
